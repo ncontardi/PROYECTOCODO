@@ -34,7 +34,7 @@ body{
         url(images/header-bg.jpg);
     background-size: cover;
     height: 100vh;
-    min-width: 70vh;
+    min-width: 50vh;
     background-position: center top;
     background-repeat: no-repeat;
     display: flex;
@@ -334,7 +334,7 @@ p {
         url(images/footer-bg.jpg);
     background-size: cover;
     height: 100vh;
-    min-width: 70vh;
+    min-width: 50vh;
     background-position: center top;
     background-repeat: no-repeat;
     display: flex;
@@ -373,7 +373,7 @@ p {
     text-decoration: none;
 }
 
-@media(max-width:991px) {
+@media(max-width:767px) {
     .menu{
         padding: 30px;
     }
@@ -398,13 +398,8 @@ p {
     }
 
     .header {
-        min-height: 0vh;
-    }
-
-    .header-content {
         padding: 100px 30px;
     }
-
     .header-content p {
         padding: 0;
     }
@@ -486,25 +481,3 @@ p {
     }
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
